@@ -1,0 +1,57 @@
+body {
+    background: url("https://images.pexels.com/photos/5326948/pexels-photo-5326948.jpeg?cs=srgb&dl=pexels-ben-mack-5326948.jpg&fm=jpg");
+}
+
+header {
+    text-align: center;
+    font-family:cursive;   
+}
+
+a {
+    color: rgb(253, 253, 253);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+img {
+    margin: 40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 20px;
+ }
+
+ul {
+    padding: 10px;
+    background: rgba(224, 18, 235, 0.5);
+}
+
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+article {
+    max-width: 500px;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+    h1 {
+      font-size: 36px;
+      padding: 5px;
+    }
+    li {
+      padding: 5px;
+      display: block;
+    }
+}
+h2 {
+      background: rgba(224, 18, 235, 0.5);
+      padding: 0px 0px 0px 5px;
+      font-family: cursive;
+}
+p {
+    color: white;
+}
