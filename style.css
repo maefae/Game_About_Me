@@ -1,3 +1,4 @@
+
 body {
     background: url("https://images.pexels.com/photos/5326948/pexels-photo-5326948.jpeg?cs=srgb&dl=pexels-ben-mack-5326948.jpg&fm=jpg");
 }
@@ -21,14 +22,9 @@ img {
     border-radius: 20px;
  }
 
-ul {
+nav {
     padding: 10px;
     background: rgba(224, 18, 235, 0.5);
-}
-
-li {
-    display: inline;
-    padding: 0px 10px 0px 10px;
 }
 
 article {
@@ -54,4 +50,21 @@ h2 {
 }
 p {
     color: white;
+    
+}
+
+li.orig {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+
+.work {
+    color: white;
+    padding: 0px;
+}
+
+ol {
+    display: block;
+    color: rgb(66, 9, 9);
 }
