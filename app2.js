@@ -130,10 +130,10 @@ if (typeof(question5) === 'string') {
     let answer = 7;
     let numberofattempts = 4;
 
-    // while (numberofattempts > 0) {
-        let userAnswer = prompt("Guess a number between 6 and 8!");
+     while (numberofattempts > 0) {
+        let userAnswer = prompt("Guess what my favorite number is between 6 and 8!");
         console.log("this is the user answer: " + userAnswer);
-        numberofattempts--;
+        numberofattempts--; 
         if (userAnswer == answer) {
             alert("You are correct!");
             totalScore++;
@@ -145,6 +145,7 @@ if (typeof(question5) === 'string') {
         } else {
             alert("Guess again!");
         }
+    }
 
 
 let favFoods = ["tacos", "sushi", "burgers", "pizza"];
@@ -153,6 +154,8 @@ while (attempts) {
   let foodGuess = prompt("Guess my fav food");
   attempts -= 1;
 
+  let correct = false; 
+
   for (let i = 0; i < favFoods.length; i++) {
     if (foodGuess === favFoods[i]) {
         console.log('this is foodGuess' + foodGuess);
@@ -160,12 +163,18 @@ while (attempts) {
       alert("That is correct.");
       totalScore += 1;
       attempts = 0;
+      correct = true;
       break;
-    } else {
-        alert("That is incorrect.");
     }
 
     }
+    if (correct === false) {
+        alert("That is incorrect.");
+        break;
+    } else {
+        break;
+    }
+  
 }
 
 if (!attempts) {
