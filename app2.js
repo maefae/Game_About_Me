@@ -18,6 +18,8 @@ console.log(guest);
 
 let game = alert('We are going to play a guessing game where I will tell you something about myself, and you must type yes for true or no for false');
 
+/*
+
 function whereFrom() {
   let question1 = prompt('I am from Panama City. Yes or no?').toLowerCase();
   if (typeof(question1) === "string") {
@@ -144,6 +146,7 @@ function workMilitary() {
 }
 workMilitary();
 
+*/
 
 let multipleQuestions = [
   'I am from Panama City. Yes or no?',
@@ -183,7 +186,6 @@ function manyQuestions() {
 manyQuestions();
 
 
-
 function favNumber () {
   let answer = 7;
   let numberofattempts = 4;
@@ -207,8 +209,6 @@ function favNumber () {
 }
 favNumber();
 
-
-// question seven
 
 function favFood() {
 
