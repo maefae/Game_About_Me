@@ -18,7 +18,6 @@ console.log(guest);
 
 let game = alert('We are going to play a guessing game where I will tell you something about myself, and you must type yes for true or no for false');
 
-/*
 function whereFrom() {
   let question1 = prompt('I am from Panama City. Yes or no?').toLowerCase();
   if (typeof(question1) === "string") {
@@ -39,6 +38,7 @@ function whereFrom() {
   }
   console.log(question1)
 }
+
 whereFrom();
 function favColor() {
   let color = prompt('is my favorite color bergundy? yes or no.').toLowerCase();
